@@ -210,6 +210,8 @@ nav {
 
 .perfil__image {
     width: 300px;
+    border-radius: 10px;
+    box-shadow: rgb(38 57 77) 0px 20px 30px -10px;
 }
 
 .content_cards__title {
@@ -252,8 +254,14 @@ nav {
 .vent {
     justify-content: center;
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 500;
+}
+.vent-second {
+    display: flex;
     flex-direction: column;
-    align-items: center;font-weight: 500;
+    align-items: center;
 }
 .vent-description {
     text-align: center;
@@ -266,6 +274,25 @@ nav {
     text-align: center;
     background-color: white;
     font-size: 20px;
+    font-family:  system-ui;
+    line-height: 2rem;
+    margin: 25px;
+    padding: 25px;
+    box-shadow: rgb(38 57 77) 0px 20px 30px -10px;
+}
+
+.form {
+    text-align: center;
+}
+.fieldset{
+    padding: 11px;
+    padding-left: 105px;
+    padding-right: 105px;
+    margin: -10px;
+    background-color: white;
+    font-size: 20px;
+    font-family:  system-ui;
+    box-shadow: rgb(38 57 77) 0px 20px 30px -10px;
 }
 
 .contenedor {
