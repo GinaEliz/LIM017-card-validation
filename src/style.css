@@ -170,13 +170,13 @@ nav {
 }
 
 /*contenido sobre nosotros*/
-.perfil {
+.profile {
     text-align: center;
     padding: 70px;
 
 }
 
-.perfil-container {
+.profile-container {
     display: flex;
     align-items: center;
     padding: 55px;
@@ -186,7 +186,7 @@ nav {
     flex-direction: column;
 }
 
-.perfil__info {
+.profile__info {
     flex: 1;
     gap: 1.5rem;
     text-align: left;
@@ -195,11 +195,11 @@ nav {
     margin: 5px;
 }
 
-.perfil__info-title {
+.profile__info-title {
     font-size: 2.5rem;
 }
 
-.perfil__image-container {
+.profile__image-container {
     display: flex;
     max-width: 18rem;
     overflow: hidden;
@@ -208,7 +208,7 @@ nav {
     border: 0.25rem solid var(--inverse-theme-color);
 }
 
-.perfil__image {
+.profile__image {
     width: 300px;
     border-radius: 10px;
     box-shadow: rgb(38 57 77) 0px 20px 30px -10px;
@@ -457,7 +457,7 @@ nav {
         animation-duration: 2s;
     }
 
-    .perfil-container {
+    .profile-container {
         display: flex;
         align-items: center;
         padding: 55px;

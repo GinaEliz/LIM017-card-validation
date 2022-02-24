@@ -31,12 +31,12 @@ function btnValid(){
  let digit2= validator.maskify(cardDigitNumber);
 
  if (digit1) {
-     document.getElementById("resultado").textContent="RESULTADO:"+"Tarjeta Valida";
+     document.getElementById("resultado").textContent="RESULTADO:"+"Tarjeta valida, Gracias por tu compra";
      document.getElementById("number").textContent= digit2;
      document.getElementById("numberCard").textContent= digit2;
  }
  else {
-    document.getElementById("resultado").textContent="RESULTADO:"+"Tarjeta Invalida";
+    document.getElementById("resultado").textContent="RESULTADO:"+"Tarjeta Invalida, no es posible realizar tu compra";
 }
 
 }
