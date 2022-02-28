@@ -29,7 +29,7 @@ function btnValid(){
 
  let digit1= validator.isValid(cardDigitNumber);
  let digit2= validator.maskify(cardDigitNumber);
-
+ 
  if (digit1) {
      document.getElementById("resultado").textContent="RESULTADO:"+"Tarjeta valida, Gracias por tu compra";
      document.getElementById("number").textContent= digit2;
