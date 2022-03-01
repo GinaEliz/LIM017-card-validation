@@ -37,6 +37,8 @@ function btnValid(){
  }
  else {
     document.getElementById("resultado").textContent="RESULTADO:"+"Tarjeta Invalida, no es posible realizar tu compra";
+    document.getElementById("number").textContent= "";
+    document.getElementById("numberCard").textContent= "";
 }
 
 }
